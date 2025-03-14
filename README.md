@@ -6,7 +6,7 @@
 
 点击以下按钮，在 Binder 中打开 Notebook：
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/YOUR_GITHUB_USERNAME/mybinder-rdkit/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dfwlab/mybinder-rdkit/tree/main/HEAD)
 
 ## 📦 环境配置
 
