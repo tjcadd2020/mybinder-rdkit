@@ -4,7 +4,7 @@ FROM jupyter/scipy-notebook:latest
 RUN conda install -c conda-forge rdkit
 
 # 复制所有文件到 /home/jovyan/work
-COPY . /home/jovyan/work
+COPY ./data /home/jovyan/work
 
 # 设置工作目录，使 Jupyter 直接打开 /home/jovyan/work
 WORKDIR /home/jovyan/work
