@@ -2,7 +2,7 @@ FROM jupyter/scipy-notebook:latest
 
 # 安装 RDKit
 RUN conda install -c conda-forge rdkit
-RUN pip install pycairo
+RUN pip install --pre deepchem
     
 # 复制所有文件到 /home/jovyan/work
 COPY ./data /home/jovyan/work
