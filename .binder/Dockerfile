@@ -2,6 +2,7 @@ FROM jupyter/scipy-notebook:latest
 
 # 安装 RDKit
 RUN conda install -c conda-forge rdkit
+RUN conda install -c conda-forge pycairo
 
 # 复制所有文件到 /home/jovyan/work
 COPY ./data /home/jovyan/work
