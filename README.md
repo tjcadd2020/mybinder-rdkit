@@ -1,5 +1,7 @@
 # MyBinder RDKit Environment
 
+### This is the backup of https://github.com/dfwlab/mybinder-rdkit
+
 本仓库用于在 [MyBinder](https://mybinder.org/) 上运行 Jupyter Notebook，并支持 RDKit 进行化学分子处理。
 
 ## 🚀 快速开始
